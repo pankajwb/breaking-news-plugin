@@ -1,18 +1,23 @@
-# Breaking News WordPress Plugin
+=== WP Breaking News ===
+Contributors: pvashist75
+Donate link: https://www.linkedin.com/in/pvashist/
+Tags: news
+Requires at least: 3.5
+Tested up to: 5.8
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
- This is a custom plugin built for screening process in Toptal. This plugin provides feature to set indiviual post as Breaking News and displays the same on frontend right below header
+A simple plugin to display any post as a breaking news on fronted of the website.
 
-## Contents
+== Description ==
 
-The WordPress Plugin standard php files 
+This plugin does following:
+* Adds custom fields on post to set the post as a breaking news, and add expiration date & time
+* Adds plugin settings page to set background and text color for frontend display
+* Adds breaking news section in the beginning of body tag.
+* Section can also be added with shortcode [breaking_news]
 
-## Features
+== Installation ==
 
-* The plugin is based on the [Plugin API](http://codex.wordpress.org/Plugin_API), [Coding Standards](http://codex.wordpress.org/WordPress_Coding_Standards), and [Documentation Standards](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/php/).
-* All classes, functions, and variables are documented so that you know what you need to change.
-* The plugin uses a standard file organization scheme that corresponds both to the WordPress Plugin Repository structure, and that makes it easy to organize the files that compose the plugin.
-
-
-## Installation
-
-The plugin can be installed directly into your plugins folder "as-is".
+1. Upload `wp-breaking-news` to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
